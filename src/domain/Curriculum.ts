@@ -17,4 +17,7 @@ export interface CurriculumYear {
 export interface CurriculumSemester {
   id?: string;
   semester?: number;
+
+  // Subject codes
+  subjects?: string[];
 }
