@@ -8,7 +8,9 @@ type RequestDTO = MultiTenantReqDTO & {
   numberOfYears: number;
 };
 
-type ResponseDTO = {};
+type ResponseDTO = {
+  message: string;
+};
 
 export class AddCurriculum extends IUseCase<RequestDTO, ResponseDTO> {
   async execute(args: RequestDTO): Promise<ResponseDTO> {
@@ -48,6 +50,8 @@ export class AddCurriculum extends IUseCase<RequestDTO, ResponseDTO> {
       curriculumYears
     });
     
-    return {};
+    return {
+      message: 'Success'
+    };
   }
 }

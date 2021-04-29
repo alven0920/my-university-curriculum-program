@@ -30,6 +30,8 @@ describe('Get Registration Service', () => {
     });
 
     expect(typeof result.courseId).toBe('string');
+    expect(result.curriculumId).toEqual('12345');
+    expect(result.curriculumYears).toEqual(['1111', '2222', '3333']);
 
     done();
   });
