@@ -1,3 +1,5 @@
+import { Semester } from './constants';
+
 export interface Curriculum {
   curriculumId?: string;
   courseId?: string;
@@ -16,7 +18,7 @@ export interface CurriculumYear {
 
 export interface CurriculumSemester {
   id?: string;
-  semester?: number;
+  semester?: Semester;
 
   // Subject codes
   subjects?: string[];
