@@ -1,16 +1,17 @@
-# MY UNIVERSITY - CURRICULUM MANAGEMENT #
+# MY UNIVERSITY PET PROJECT - CLEAN ARCHITECTURE-INSPIRED
+## Curriculum Program
 
 This is a microservice boilerplate for "My University" curriculum program
 
-### Pre-requisite ###
+### Pre-requisite
 
 * Node JS version >= 14.0.0 (NPM >= 6.14.4)
 
-### Setup ###
+### Setup
 
 1. Run `npm install` to install dependencies
 
-### Technology Stack ###
+### Technology Stack
 
 1. TypeScript 4.x.x (JavaScript)
 2. Jest (for unit testing)
